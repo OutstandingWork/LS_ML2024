@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['boot', 'car', 'door', 'front_bumper', 'front_grill', 'front_windshield', 'headlamp', 'hood', 'license_plate', 'panel', 'rear_bumper', 'rear_windshield', 'sideview_mirror', 'taillamp', 'wheel', 'window']
+
+roboflow:
+  workspace: ae-43fv6
+  project: body-parts-cq3al
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ae-43fv6/body-parts-cq3al/dataset/2
